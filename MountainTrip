@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body background="./images/mountaine inage.png">
+    <header>
+        <div class="container">
+            <div class="menu">
+                <img src="./images/Group 4.svg" alt="icon">
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#">Your trip</a>
+                    <a href="#">About us</a>
+                    <a href="#">Shop</a>
+                </nav>
+            
+            <img src="./images/Group 12.svg" alt="logo">
+            </div>
+        </div>
+        
+    </header>
+    <h1>welcome to Mountain Trip</h1>
+    <p><font size="5">Let's enjoy the <b>Beautiful world</b></font size></p>
+        <div class="main">
+        <p1><font size="6">Make your Trip Memorable with us</font></p1>
+        <p2>The Now Lets Travel Store specialises in great deals on holidays</p2>
+        <div><img src="./images/facebook.svg" alt="facebook">
+        <img src="./images/youtube.svg" alt="youtube">
+        <img src="./images/twitter.svg" alt="twitter">
+        <img src="./images/instagram.svg" alt="instagram"></div>
+        <button><font size="3">Get started</font></button>
+        </div>       
+</body>
+</html>
+
+
+
+style.css
+header{
+    width: 100%;
+    background-color: 
+    rgba(217, 217, 217, 0.45) ;   
+}
+a{
+    color: white;
+    text-decoration: dotted;
+    margin: 50px;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px 60px;
+    padding-right: 10px;
+}
+
+.menu{
+    display: flex;       
+}
+nav{
+    margin: auto;
+}
+h1{
+    color: white;
+    text-align: center;
+
+}
+p{
+    text-align: center;
+}
+p1{
+    color: white;
+}
+p2{
+    color: white;
+}
+button{
+    border: #09C2AE;
+    width: 150px;
+    height: 70px;
+    border-radius: 15px;
+    background-color: #09C2AE;
+    color: white;
+}
+.main{
+    width: 270px;
+    height: 350px;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
